@@ -1,0 +1,44 @@
+body{
+    background-color: #dfdfdf;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.region{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 13em;
+    width: 12em;
+    border-radius: 35px;
+}
+
+.container :hover{
+    border-radius: 35px;
+    box-shadow: 6px 0px 10px 2px rgba(0, 0, 0, 0.185);
+}
+
+
+#gee{
+    padding: px;
+    height: 100%;
+    width: 100%; 
+    border-radius: 30px 30px 35px 10px;   
+} 
+
+.ghana{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+
+}
+.image {
+ height: 250px;
+}

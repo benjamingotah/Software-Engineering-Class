@@ -1,0 +1,40 @@
+.container{
+    height: 100vh;
+    background-color: rgba(199, 203, 206, 0.466);
+    gap: 2rem;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr ;
+    grid-template-rows:5vh 3fr 5vh 2fr ;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "hero hero hero hero"
+    "service service service service"
+    "card1 card2 card3 card4"
+    ;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.hero{
+    grid-area: hero;
+}
+.services{
+    grid-area: service;
+}
+
+.card-1{
+    grid-area: card1;
+}
+.card-2{
+    grid-area: card2;
+}
+.card-3{
+    grid-area: card3;
+}
+.card-4{
+    grid-area: card4;
+}
+
